@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-image: url(../web/im/drugo.webp); 
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.box {
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    border: 2px solid #333; 
+    padding: 20px; 
+    background-color:transparent;
+    width: 1000px;; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.content {
+    display: flex;
+    align-items: center; 
+}
+
+.img {
+    display: block; 
+    height: auto; 
+    margin-right: 15px; 
+    justify-content: space-between;
+}
+
+.motor-info {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 15px; 
+}
+
+.motor-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #ffffff; 
+}
+
+.title {
+    text-align: left;
+    margin-bottom: 15px; 
+    font-size: 20px; 
+    color: #fff7f7; 
+}
+
+.home{
+    float:left;
+    float:top;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
